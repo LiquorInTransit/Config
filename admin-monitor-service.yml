@@ -11,3 +11,14 @@ security:
   user:
     name: admin
     password: admin
+
+
+---
+
+spring:
+  profiles: dev
+  boot:
+    admin:
+      url: http://localhost:8080
+server:
+  port: 8010
